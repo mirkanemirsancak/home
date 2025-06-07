@@ -1,5 +1,11 @@
-title: Mirkan Emir Sancak 
-#logo:
-description: Academic and personal website of Sancak.
-#show_downloads: true
-theme: jekyll-theme-minimal
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+
+gem "github-pages", group: :jekyll_plugins
+
+title: Mirkan Emir Sancak
+description: Researcher on Environmental Chemistry Analysis with Machine Learning Based on Colour Perception
+
+show_downloads: true
+
